@@ -1,0 +1,13 @@
+[package]
+name = "embed-tools"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nalgebra = {version = "0.32.3", default-features = false, features = ["alloc"]}
+rand = {version = "0.8.5", default-features = false, features = ["small_rng"]}
+rand_distr = {version = "0.4.3", default-features = false}
+
+[dev-dependencies]
+serde_json = "1.0.104"
+serde = "1.0.183"
